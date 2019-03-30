@@ -1,0 +1,6 @@
+node_modules/
+build/
+.cache-loader
+.vscode
+package-lock.json
+.DS_Store
