@@ -1,7 +1,15 @@
 import { combineReducers } from 'redux';
 
-import { togglerHeader } from './togglerHeader';
+import { postsReducer } from './posts';
+import { activePostReducer } from './activePost';
+import { usersReducer } from './users';
+import { commentsReducer } from './comments';
+// import { searchReducer } from './search';
 
 export default combineReducers({
-    togglerHeader,
+    postsReducer,
+    activePostReducer,
+    usersReducer,
+    commentsReducer,
+    // searchReducer,
 });

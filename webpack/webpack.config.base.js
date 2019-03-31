@@ -49,6 +49,7 @@ module.exports = {
             Containers: path.resolve(paths.appSrc, 'containers'),
             Assets: path.resolve(paths.appSrc, 'assets'),
             Store: path.resolve(paths.appSrc, 'store'),
+            Root: path.resolve(paths.appSrc),
         },
     },
     module: {

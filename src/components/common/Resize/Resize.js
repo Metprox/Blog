@@ -41,11 +41,7 @@ const Resize = props => {
     const appFontSize = {
         fontSize: fSize + 'px',
     };
-    return (
-        <div className="app" style={appFontSize}>
-            {props.children}
-        </div>
-    );
+    return <div style={appFontSize}>{props.children}</div>;
 };
 
 export default Resize;

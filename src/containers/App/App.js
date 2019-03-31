@@ -1,13 +1,15 @@
-import React from 'react';
-
-import Other from 'Containers/Other/Other';
-
+import React, { Component } from 'react';
+// import axios from 'Root/axios';
 import cls from './App.scss';
 
-const App = props => (
-    <div className={cls.wrapper}>
-        <Other />
-    </div>
-);
-
-export default App;
+import Resize from 'Components/common/Resize/Resize';
+import Layout from 'Containers/Layout/Layout';
+export default class App extends Component {
+    render() {
+        return (
+            <Resize>
+                <Layout />
+            </Resize>
+        );
+    }
+}
